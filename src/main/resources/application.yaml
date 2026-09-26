@@ -1,0 +1,22 @@
+server:
+  port: 8081
+  servlet:
+    session:
+      tracking-modes: cookie
+
+spring:
+  datasource:
+    platform: postgres
+    url: ${DATABASE_URL}
+    username: ${DATABASE_USERNAME}
+    password: ${DATABASE_PASSWORD}
+    driverClassName: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath:schema-postgresql.sql
