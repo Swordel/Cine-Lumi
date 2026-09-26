@@ -1,9 +1,5 @@
-# 🎬 Cine Latte
-Um cinema que também é um café.
-
-Projeto acadêmico desenvolvido para a disciplina de Programação Orientada a Objetos, seguindo a arquitetura **MVC (Model-View-Controller)**.
-
-O Cine Latte é um sistema web de cinema que permite a visualização de filmes em cartaz e em breve, compra de ingressos e gerenciamento do conteúdo pelo administrador.
+# 🎬 Cine Lumi
+Um farol para boas histórias.
 
 ---
 
