@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #1E1612;
+    background-color: #EADCC6;
     font-family: 'Montserrat', sans-serif;
     color: #F5EBDD;
     padding-top: 90px;
@@ -30,7 +30,7 @@ body {
     font-size: 22px;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #F5EBDD;
+    color: #1A1A1A;
 }
 
 .btn-novo {
@@ -40,15 +40,15 @@ body {
     letter-spacing: 1px;
     padding: 10px 20px;
     border-radius: 40px;
-    border: 1px solid #C69C6D;
-    color: #C69C6D;
+    border: 1px solid #0B1F3B;
+    color: #12406B;
     text-decoration: none;
     transition: background 0.2s, color 0.2s;
 }
 
 .btn-novo:hover {
-    background: #C69C6D;
-    color: #1E1612;
+    background: #D4A85B;
+    color: #1A1A1A;
 }
 
 /* ── ABAS EM CARTAZ / EM BREVE ──────────────────────────────── */
@@ -63,7 +63,7 @@ body {
     font-size: 14px;
     font-weight: 400;
     padding: 14px 20px;
-    color: #C9B29B;
+    color: #0B1F3B;
     text-decoration: none;
     border-bottom: 2.5px solid transparent;
     margin-bottom: -1.5px;
@@ -72,13 +72,13 @@ body {
 }
 
 .lista-tab.active {
-    color: #F5EBDD;
+    color: #12406B;
     border-bottom-color: #7A8B74;
     font-weight: 500;
 }
 
 .lista-tab:hover:not(.active) {
-    color: #F5EBDD;
+    color: #0B1F3B;
 }
 
 /* ── GRADE DE FILMES ────────────────────────────────────────── */
@@ -97,7 +97,7 @@ body {
 
 .movie-card-admin {
     text-decoration: none;
-    color: #E8DCC6;
+    color: #0B1F3B;
     display: flex;
     flex-direction: column;
     transition: transform 0.3s;
@@ -133,7 +133,7 @@ body {
 .movie-card-admin .movie-name {
     font-size: 12px;
     font-weight: 700;
-    color: #E8DCC6;
+    color: #12406B;
     letter-spacing: 0.3px;
     margin-bottom: 5px;
     display: -webkit-box;
@@ -147,7 +147,7 @@ body {
     align-items: center;
     gap: 6px;
     font-size: 10px;
-    color: #A6B59F;
+    color: #12406B;
     flex-wrap: wrap;
     margin-top: auto;
 }
@@ -194,7 +194,7 @@ body {
 .btn-editar {
     border: 1px solid rgba(198, 156, 109, 0.35);
     background: transparent;
-    color: #C69C6D;
+    color: #1A1A1A;
 }
 
 .btn-editar:hover {
