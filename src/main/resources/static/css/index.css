@@ -4,11 +4,13 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: #1E1612;
+body {
+    background-color: #00122a;
     font-family: 'Montserrat', sans-serif;
     color: #F5EBDD;
     overflow-x: hidden;
+    
+    position: relative;
 }
 
 .hero-carousel {
@@ -368,7 +370,7 @@ body{
     height: 600px;
     background:
         linear-gradient(to right, rgba(30,22,18,0.82) 38%, rgba(30,22,18,0.1) 100%),
-        url('../images/cafe-hero.png') center/cover no-repeat;
+        url('../images/estabelecimento.png') center/cover no-repeat;
     clip-path: ellipse(75% 100% at 50% 0%);
     display: flex;
     align-items: center;
@@ -438,7 +440,7 @@ body{
 
 .cafe-bottom {
     position: relative;
-    background: #1E1612;
+    background: #00122a;
     padding: 56px 48px 60px;
     overflow: hidden;
 }
