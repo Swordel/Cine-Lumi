@@ -18,14 +18,17 @@
 <header>
     <div class="logo-area">
         <div class="logo">
-            <img th:src="@{/images/logo.png}" alt="Logo Cine Latte">
+            <img th:src="@{/images/logo.png}" alt="Logo CineLumi">
         </div>
-        <div>
-            <h1>CINE LATTE</h1>
-            <p>Bom filme. Bom café. Boa companhia.</p>
-        </div>
-    </div>
-    <a th:href="@{/filme/{id}/sessoes(id=${filme.id})}" class="login-btn">VOLTAR</a>
+
+        <div class="logo-text">
+            <img th:src="@{/images/nome.png}" alt="CineLumi">
+            <p>Um farol para boas histórias.</p>
+        </div> 
+    </div>  
+    
+        <a th:href="@{/filme/{id}/sessoes(id=${filme.id})}" class="login-btn">VOLTAR</a>
+    
 </header>
 
 <main>
